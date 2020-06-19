@@ -16,6 +16,8 @@ $ composer require walker-distance/weather -vvv
 php artisan vendor:publish --provider='WalkerDistance\Weather\ServiceProvider'
 ```
 
+#### 针对laravel5.5版本使用
+
 更新env文件（:API_KEY 高德对应应用的KEY）
 ```php
 WEATHER_API_KEY=*******************
